@@ -1,0 +1,74 @@
+/*--------------------------------------------------------
+        Top banner styles section start
+---------------------------------------------------------*/
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 23px;
+    width: 1099px;
+    height: 612px;
+    padding-left: 107px;
+    padding-right: 79px;
+
+    background: #161616;
+    border-radius: 30px;
+}
+
+/* top banner text color  */
+.top-banner h1,
+p,
+a {
+    color: #FFFFFF;
+}
+
+.top-banner h1 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.top-banner p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* top banner button styles section start */
+.button-style {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.button-style a {
+    text-decoration: none;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+/* Top banner button styles section end  */
+
+/* Top banner image styles */
+.top-banner-image {
+    width: 581px;
+    height: 613px;
+}
+
+/*--------------------------------------------------------
+        Top banner styles section end
+---------------------------------------------------------*/
