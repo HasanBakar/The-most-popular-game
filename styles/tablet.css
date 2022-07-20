@@ -1,0 +1,29 @@
+/* Media query for Galaxy Tablet view*/
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 23px;
+        width: 734px;
+        height: 398px;
+        padding-left: 107px;
+        padding-right: 79px;
+        background: #161616;
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-bottom: 130px;
+    }
+
+    .top-banner h1 {
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .top-banner p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+}

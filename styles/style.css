@@ -14,17 +14,17 @@ body {
 .top-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 23px;
-    width: 994px;
-    height: 612px;
-    padding-left: 107px;
-    padding-right: 79px;
+    grid-column-gap: 2vw;
+    width: 70vw;
+    height: 80vh;
+    padding-left: 6.5vw;
+    padding-right: 4.5vw;
     background: #161616;
     border-radius: 30px;
-    margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 140px;
-    margin-bottom: 130px;
+    margin-top: 4.5vh;
+    margin-left: 12.5vw;
+    margin-right: 14vw;
+    margin-bottom: 12.5vh;
 }
 
 /* top banner text color  */
@@ -36,27 +36,30 @@ a {
 
 .top-banner h1 {
     font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
+    font-weight: 100vw;
+    font-size: 500%;
+    line-height: 80px;
+    padding-top: 4vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 0.5vh;
 }
 
 .top-banner p {
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 5vw;
+    font-size: 110%;
+    margin-top: 2vh;
 }
 
 /* top banner button styles section start */
 .button-style {
-
-
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 187px;
-    height: 56px;
+    gap: 1.5vw 1.5vh;
+    width: 11vw;
+    height: 7vh;
     background: #DD0000;
     border-radius: 5px;
 }
@@ -67,24 +70,33 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-
 }
+
+
 
 /* Top banner button styles section end  */
 
 /* Top banner image styles */
 .top-banner-image {
-    width: 581px;
-    height: 613px;
+    width: 35vw;
+    height: 80vh;
 }
 
 /*--------------------------------------------------------
         Top banner styles section end
 ---------------------------------------------------------*/
 
+
+
+/*-------------------------------------------------------
+             Blogs section styles start
+--------------------------------------------------------*/
+
+/* side navigation map start */
+
 .navigation {
-    width: 312px;
-    height: 312px;
+    width: 23vw;
+    height: 44vh;
     background: #161616;
     border-radius: 10px;
     display: flex;
@@ -94,15 +106,10 @@ a {
     /* gap: 20px; */
 }
 
-/*-------------------------------------------------------
-             Blogs section styles start
---------------------------------------------------------*/
-
-/* side navigation map start */
 .nav-bg-style {
     color: black;
-    width: 252px;
-    height: 64px;
+    width: 18.5vw;
+    height: 8vh;
     background: #FFFFFF;
     border-radius: 10px;
     display: flex;
@@ -112,13 +119,13 @@ a {
 }
 
 #nav-box-style {
-    width: 252px;
-    height: 64px;
+    width: 18.5vw;
+    height: 8vh;
 }
 
 .navigation a {
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 2.8vh;
 }
 
 /* side navigation map end */
@@ -127,8 +134,8 @@ a {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-column-gap: 24px;
-    margin-left: 140px;
-    margin-right: 140px;
+    margin-left: 11.5vw;
+    margin-right: 13vw;
 }
 
 .articles-container {
@@ -139,18 +146,18 @@ a {
 
 .article {
     background-color: #E8E8E8;
-    width: 264px;
+    width: 18vw;
 }
 
 .resize-article-image {
-    width: 264px;
-    height: 120px;
+    width: 18vw;
+    height: 14vh;
 
 }
 
 .blog-transfer-box {
-    width: 100px;
-    height: 32px;
+    width: 10vw;
+    height: 5vh;
     border: 1px solid black;
     color: #161616;
     font-style: normal;
@@ -163,8 +170,8 @@ a {
     color: #161616;
     font-weight: 600;
     font-size: 18px;
-    width: 222px;
-    height: 56px;
+    width: 20vw;
+    height: 5.5vh;
 }
 
 .blog-bottom {
@@ -199,25 +206,26 @@ a {
 footer {
     margin-left: 0;
     padding-left: 0;
-    margin-top: 130px;
-    width: 1413px;
-    height: 444px;
+    margin-top: 13vh;
+    width: 100vw;
+    height: 65vh;
     background: #161616;
+
 }
 
 #footer-heading p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
+    padding-top: 9vh;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 26px
 }
 
 hr {
-    width: 1320px;
-    height: 0px;
+    width: 80vw;
+    height: 0vh;
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -227,21 +235,22 @@ hr {
 }
 
 .footer-more-option a {
-    padding: 50px;
+    padding: 4vw 4vh;
     text-decoration: none;
 }
 
 .social-media-icon {
     display: grid;
-    grid-template-columns: repeat(3, 90px);
+    grid-template-columns: repeat(3, 9vw);
     align-items: center;
     justify-content: center;
 }
 
 .social-media-icon img {
-    width: 30px;
-    height: 30px;
-    padding: 20px;
+    width: 3vw;
+    height: 3vh;
+    padding: 2vh 2vw;
+    margin-bottom: 2vh;
 }
 
 .fb-icon {
