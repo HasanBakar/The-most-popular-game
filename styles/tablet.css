@@ -70,10 +70,17 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
+        margin-left: 13vw;
     }
 
     .article {
         background-color: #E8E8E8;
         width: 30vw;
+    }
+
+    .resize-article-image {
+        width: 30vw;
+        height: 14vh;
+
     }
 }
