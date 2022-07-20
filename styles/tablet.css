@@ -94,11 +94,26 @@
 }
 
 @media only screen and (max-width:576) {
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navigation {
+
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
     .articles-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 24px;
         margin-left: 13vw;
     }
+
 
 }
