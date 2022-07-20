@@ -1,3 +1,13 @@
+/*-----------------------------------------------------------
+                 Google fonts  link
+-------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Oswald:wght@700&family=Poppins:wght@400;500&family=Roboto+Condensed:wght@700&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:wght@400;500&family=Secular+One&display=swap');
+
+/* Utilities styles */
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 /*--------------------------------------------------------
         Top banner styles section start
 ---------------------------------------------------------*/
@@ -84,6 +94,11 @@ a {
     /* gap: 20px; */
 }
 
+/*-------------------------------------------------------
+             Blogs section styles start
+--------------------------------------------------------*/
+
+/* side navigation map start */
 .nav-bg-style {
     color: black;
     width: 252px;
@@ -105,6 +120,67 @@ a {
     text-decoration: none;
     margin-top: 30px;
 }
+
+/* side navigation map end */
+
+.articles-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 24px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.articles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.article {
+    background-color: #E8E8E8;
+}
+
+.blog-transfer-box {
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    color: #161616;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.blog-text {
+    color: #161616;
+    font-weight: 600;
+    font-size: 18px;
+    width: 272px;
+    height: 54px;
+}
+
+.blog-bottom {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.icon-blog {
+    display: flex;
+    gap: 6px;
+}
+
+.blog-time-chat {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+/*-------------------------------------------------------
+             Blogs section styles end
+--------------------------------------------------------*/
 
 
 
