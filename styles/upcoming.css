@@ -1,7 +1,8 @@
 .flag-box {
-    width: 264px;
-    height: 230px;
+    width: 18vw;
+    height: 30vh;
     border: none;
+    border-radius: 3%;
     box-shadow: 0.2px 0.2px 1px 1px #888888;
     display: grid;
     grid-template-columns: 1fr;
@@ -13,25 +14,27 @@
     display: flex;
     justify-content: center;
     border: 0px solid #E8E8E8;
-    border-radius: 10px;
-    width: 331px;
+    border-radius: 3%;
+    width: 27vw;
+    margin-bottom: 0.9vh;
 
 }
 
 .flag-resize {
-    width: 108px;
-    height: 55px;
+    width: 6vw;
+    height: 8vh;
 }
 
 .vs-paragra {
-    width: 22px;
-    height: 24px;
+    width: 2vw;
+    height: 4vh;
     color: #161616;
+    padding-left: 0.8vw;
 }
 
 h3 {
-    margin-top: -23px;
-    margin-bottom: -16px;
+    margin-top: -7vh;
+    margin-bottom: 0.2vh;
 }
 
 .match-details {
@@ -39,12 +42,14 @@ h3 {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: -2.5vh;
 }
 
 .match-time {
-    width: 166px;
-    height: 5px;
+    width: 11vw;
+    height: 5vh;
     font-weight: 400;
     font-size: 16px;
     color: #4D4D4D;
+    margin-top: 1vh;
 }
