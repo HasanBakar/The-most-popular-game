@@ -1,4 +1,4 @@
-@media only screen and (max-width:1050px) {
+@media only screen and (max-width:1050px) and (min-width:577px) {
     .top-banner {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -91,4 +91,14 @@
         height: 14vh;
 
     }
+}
+
+@media only screen and (max-width:576) {
+    .articles-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-left: 13vw;
+    }
+
 }
