@@ -171,7 +171,7 @@
         flex-direction: column;
         height: 150vh;
         width: 80vw;
-        height: 142.5vh;
+        height: 135vh;
         padding-left: 6.5vw;
         padding-right: 4.5vw;
         background: #161616;
@@ -206,5 +206,20 @@
         border-radius: 5px;
     }
 
+    .top-banner-image {
+        width: 35vw;
+        height: 80vh;
+        margin-left: 30%;
+        margin-top: 0%;
+    }
+
+
+    .articles-container {
+        margin-top: 89%;
+        margin-left: -10%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
 
 }

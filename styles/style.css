@@ -11,7 +11,7 @@ body {
 /*--------------------------------------------------------
         Top banner styles section start
 ---------------------------------------------------------*/
-/* .top-banner {
+.top-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2vw;
@@ -25,34 +25,7 @@ body {
     margin-left: 12.5vw;
     margin-right: 14vw;
     margin-bottom: 12.5vh;
-} */
-
-
-
-
-
-
-
-
-.top-banner {
-    display: flex;
-    flex-direction: column;
-    height: 150vh;
-    width: 80vw;
-    height: 142.5vh;
-    padding-left: 6.5vw;
-    padding-right: 4.5vw;
-    background: #161616;
-    border-radius: 30px;
-    margin-top: -4.5vh;
-    margin-left: 0.5vw;
-    margin-right: -3vw;
-    margin-bottom: 12.5vh;
 }
-
-
-
-
 
 
 
@@ -75,6 +48,7 @@ a {
     margin-bottom: 0.5vh;
 }
 
+
 .top-banner p {
     font-style: normal;
     font-weight: 5vw;
@@ -94,6 +68,7 @@ a {
     background: #DD0000;
     border-radius: 5px;
 }
+
 
 .button-style a {
     text-decoration: none;
@@ -116,6 +91,7 @@ a {
     width: 35vw;
     height: 80vh;
 }
+
 
 /*--------------------------------------------------------
         Top banner styles section end
@@ -178,6 +154,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
 
 .article {
     background-color: #E8E8E8;
