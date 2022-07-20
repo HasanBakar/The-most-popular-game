@@ -1,0 +1,50 @@
+.flag-box {
+    width: 264px;
+    height: 230px;
+    border: none;
+    box-shadow: 0.2px 0.2px 1px 1px #888888;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-align {
+    display: flex;
+    justify-content: center;
+    border: 0px solid #E8E8E8;
+    border-radius: 10px;
+    width: 331px;
+
+}
+
+.flag-resize {
+    width: 108px;
+    height: 55px;
+}
+
+.vs-paragra {
+    width: 22px;
+    height: 24px;
+    color: #161616;
+}
+
+h3 {
+    margin-top: -23px;
+    margin-bottom: -16px;
+}
+
+.match-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.match-time {
+    width: 166px;
+    height: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}
