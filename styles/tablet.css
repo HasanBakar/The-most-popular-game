@@ -1,18 +1,36 @@
-@media only screen and (max-width:1050px) and (min-width:577px) {
+@media only screen and (max-width:1000px) and (min-width:767px) {
     .top-banner {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 2vw;
-        width: 60vw;
+        width: 79vw;
         height: 70vh;
         padding-left: 3.5vw;
         padding-right: 2.5vw;
         background: #161616;
         border-radius: 30px;
         margin-top: 2.5vh;
-        margin-left: 10.5vw;
+        margin-left: 3.5vw;
         margin-right: 12vw;
         margin-bottom: 8.5vh;
+    }
+
+    .button-style {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5vw 1.5vh;
+        width: 17vw;
+        height: 7vh;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+    .top-banner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
     }
 
     .top-banner h1,
@@ -51,8 +69,15 @@
         background-color: white;
         flex-direction: row;
         justify-content: space-around;
-        margin-left: 30vw;
+        /* margin-left: 10vw; */
+        width: 103vw;
+        height: 30%;
+        margin-top: -7%;
+        margin-bottom: 7%;
+        margin-left: -25%;
     }
+
+
 
     .tablet {
         display: none;
@@ -62,7 +87,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 50%;
+        margin-left: 38%;
         margin-top: 5%;
     }
 
@@ -75,21 +100,68 @@
     }
 
     .articles-container {
+        margin-left: -10%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
-        margin-left: 13vw;
     }
 
     .article {
         background-color: #E8E8E8;
-        width: 30vw;
+        width: 41vw;
     }
 
     .resize-article-image {
-        width: 30vw;
+        width: 41vw;
         height: 14vh;
+    }
 
+    .blog-transfer-box {
+        margin-left: 7%;
+        width: 92vw;
+        height: 2vh;
+        border: 1px solid black;
+        color: #161616;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .blog-text {
+        color: #161616;
+        font-weight: 600;
+        font-size: 18px;
+        width: 24vw;
+        height: 10.5vh;
+    }
+
+    #footer-heading p {
+        padding-left: -61%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 9vh;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        margin-left: -8%;
+    }
+
+    .footer-more-option {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        scroll-padding-left: 203%;
+        flex-wrap: wrap;
+    }
+
+    .social-media-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 9vw);
+        align-items: center;
+        justify-content: center;
+        margin-left: -8%;
     }
 }
 
