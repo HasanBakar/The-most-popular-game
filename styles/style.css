@@ -139,6 +139,13 @@ a {
 
 .article {
     background-color: #E8E8E8;
+    width: 264px;
+}
+
+.resize-article-image {
+    width: 264px;
+    height: 120px;
+
 }
 
 .blog-transfer-box {
@@ -156,8 +163,8 @@ a {
     color: #161616;
     font-weight: 600;
     font-size: 18px;
-    width: 272px;
-    height: 54px;
+    width: 222px;
+    height: 56px;
 }
 
 .blog-bottom {
